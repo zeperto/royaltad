@@ -1,0 +1,35 @@
+$mainContainer: 80vw;
+$fontLarge: 3rem;
+$fontMedium: 2rem;
+$fontSmall: 1.2rem;
+$fontTiny: 0.9rem;
+$font-family: 'almarai';
+$textLightColor: #fcfcfc;
+$textDarkColor: #202020;
+$themeColorFront: #f7d900;
+$themeColorBack: #009460;
+$grayColor: #f1efef;
+@font-face {
+    font-family: royal;
+    src: url('@/assets/fonts/Almarai-Light.ttf');
+}
+
+.mainContainer{
+    max-width: $mainContainer;
+    font-family: 'royal';
+    margin: auto;
+}
+
+.fade-enter-active, .fade-leave-active{
+    transition: opcacity 0.5s;
+}
+
+.fade-enter, .fade-leave-to{
+    opacity: 0;
+}
+
+@media screen and (max-width: 576px){
+    .mainContainer{
+        max-width: 100vw;
+    }
+}

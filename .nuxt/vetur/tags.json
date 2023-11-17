@@ -1,0 +1,128 @@
+{
+  "Carousel": {
+    "description": "Auto imported from components/carousel.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "FourBanner": {
+    "description": "Auto imported from components/fourBanner.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/header.vue"
+  },
+  "HeaderSection1": {
+    "description": "Auto imported from components/headerSection1.vue"
+  },
+  "HeaderSection2": {
+    "description": "Auto imported from components/headerSection2.vue"
+  },
+  "HeaderSection3": {
+    "description": "Auto imported from components/headerSection3.vue"
+  },
+  "LatestNews": {
+    "description": "Auto imported from components/latestNews.vue"
+  },
+  "LeftSide": {
+    "description": "Auto imported from components/leftSide.vue"
+  },
+  "Orders": {
+    "description": "Auto imported from components/orders.vue"
+  },
+  "OurService": {
+    "description": "Auto imported from components/ourService.vue"
+  },
+  "RightSide": {
+    "description": "Auto imported from components/rightSide.vue"
+  },
+  "SiteBy": {
+    "description": "Auto imported from components/siteBy.vue"
+  },
+  "Specials": {
+    "description": "Auto imported from components/specials.vue"
+  },
+  "TrendingProducts": {
+    "description": "Auto imported from components/trendingProducts.vue"
+  },
+  "AdminPanelComponentsAddNewProduct": {
+    "description": "Auto imported from components/adminPanelComponents/addNewProduct.vue"
+  },
+  "AdminPanelComponentsDiscounts": {
+    "description": "Auto imported from components/adminPanelComponents/discounts.vue"
+  },
+  "AdminPanelComponentsMenus": {
+    "description": "Auto imported from components/adminPanelComponents/menus.vue"
+  },
+  "AdminPanelComponentsNews": {
+    "description": "Auto imported from components/adminPanelComponents/news.vue"
+  },
+  "AdminPanelComponentsOrders": {
+    "description": "Auto imported from components/adminPanelComponents/orders.vue"
+  },
+  "AdminPanelComponentsProducts": {
+    "description": "Auto imported from components/adminPanelComponents/products.vue"
+  },
+  "AdminPanelComponentsReports": {
+    "description": "Auto imported from components/adminPanelComponents/reports.vue"
+  },
+  "AdminPanelComponentsUsers": {
+    "description": "Auto imported from components/adminPanelComponents/users.vue"
+  },
+  "EnglishComponentsCarousel": {
+    "description": "Auto imported from components/englishComponents/carousel.vue"
+  },
+  "EnglishComponentsFooter": {
+    "description": "Auto imported from components/englishComponents/footer.vue"
+  },
+  "EnglishComponentsFourBanner": {
+    "description": "Auto imported from components/englishComponents/fourBanner.vue"
+  },
+  "EnglishComponentsHeader": {
+    "description": "Auto imported from components/englishComponents/header.vue"
+  },
+  "EnglishComponentsHeaderSection1": {
+    "description": "Auto imported from components/englishComponents/headerSection1.vue"
+  },
+  "EnglishComponentsHeaderSection2": {
+    "description": "Auto imported from components/englishComponents/headerSection2.vue"
+  },
+  "EnglishComponentsHeaderSection3": {
+    "description": "Auto imported from components/englishComponents/headerSection3.vue"
+  },
+  "EnglishComponentsLatestNews": {
+    "description": "Auto imported from components/englishComponents/latestNews.vue"
+  },
+  "EnglishComponentsLeftSide": {
+    "description": "Auto imported from components/englishComponents/leftSide.vue"
+  },
+  "EnglishComponentsLogin": {
+    "description": "Auto imported from components/englishComponents/login.vue"
+  },
+  "EnglishComponentsOurServices": {
+    "description": "Auto imported from components/englishComponents/ourServices.vue"
+  },
+  "EnglishComponentsProduct": {
+    "description": "Auto imported from components/englishComponents/product.vue"
+  },
+  "EnglishComponentsRegister": {
+    "description": "Auto imported from components/englishComponents/register.vue"
+  },
+  "EnglishComponentsSiteBy": {
+    "description": "Auto imported from components/englishComponents/siteBy.vue"
+  },
+  "EnglishComponentsSpecials": {
+    "description": "Auto imported from components/englishComponents/specials.vue"
+  },
+  "EnglishComponentsTrendingProducts": {
+    "description": "Auto imported from components/englishComponents/trendingProducts.vue"
+  },
+  "PersianComponentsProduct": {
+    "description": "Auto imported from components/persianComponents/product.vue"
+  },
+  "PersianComponentsRegister": {
+    "description": "Auto imported from components/persianComponents/register.vue"
+  },
+  "PersianComponentsRightSide": {
+    "description": "Auto imported from components/persianComponents/rightSide.vue"
+  }
+}
