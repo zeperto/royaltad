@@ -91,33 +91,7 @@ export default {
 
 
     async llogin(){
-      /*const config = {
-        Headers:{
-          Accept: 'application/json',
-        }
-      };
-      await this.$axios.post(
-        process.env.baseUrl + "/api/admin/login",
-        // "http://localhost:8000/api/admin/login",
-        {
-          'email': this.username,
-          'password': this.password,
-        },
-        config
-      ).then(response => {
-        console.log('HHHH: ' + response.data);
-        // let code = response.data.code;
-        // let token = response.data.token;
 
-        // if(code == 1){
-        //   this.$store.commit('setAdminToken', token);
-        //   console.log('ADMIN TOKEN: ' + this.$store.getters.getAdminToken);
-        //   this.$router.push('adminPanel/main');
-        // }
-        // else{
-        //   this.snackbar = true;
-        // }
-      });*/
     },
   }
 }

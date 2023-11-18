@@ -1,31 +1,5 @@
 <template>
-	
 	<div>
-		<div data-app class="text-center">
-		    <v-dialog
-		      v-model="dialog"
-		      width="auto"
-		    >
-		      <template v-slot:activator="{ props }">
-		        <v-btn
-		          color="primary"
-		          v-bind="props"
-		          @click="dialog = true"
-		        >
-		          Open Dialog
-		        </v-btn>
-		      </template>
-
-		      <v-card>
-		        <p class="vCardText">
-		          New Product Added Successfully
-		        </p>
-		        <v-card-actions>
-		          <v-btn color="primary" block @click="dialog = false">Close</v-btn>
-		        </v-card-actions>
-		      </v-card>
-		    </v-dialog>
-		</div>
 		<div>
 			<form method="post">
 				<span id="productNamePersian" class="inputs">
@@ -33,14 +7,6 @@
 			          v-model="productNamePersian"
 			          color="purple darken-2"
 			          label="نام محصول"
-			        ></v-text-field>
-		        </span>
-		        <span id="productNameEnglish" class="inputs">
-			        <v-text-field
-			          id="productNameEnglish"
-			          v-model="productNameEnglish"
-			          color="purple darken-2"
-			          label="نام محصول انگلیسی"
 			        ></v-text-field>
 		        </span>
 		        <br>
@@ -70,15 +36,8 @@
 		        <span id="descriptionPersian" class="inputs">
 			        <v-textarea
 			          color="purple darken-2"
-			          v-model="descriptionPersian"	
-				      label="توضیحات فارسی"			      
-				    ></v-textarea>
-		        </span>
-		        <span id="descriptionٍEnglish" class="inputs">
-		        	<v-textarea
-		        	  v-model="descriptionEnglish"
-			          color="purple darken-2"
-				      label="توضیحات انگلیسی"
+			          v-model="descriptionPersian"
+				      label="توضیحات فارسی"
 				    ></v-textarea>
 		        </span>
 		        <br><br>
@@ -120,7 +79,7 @@ export default {
   		this.dialog = true;
   	},
   	async addProduct(){
-  		
+
   		let obj = {
 	  		'productNamePersian': this.productNamePersian,
 	  		'productNameEnglish': this.productNameEnglish,
@@ -137,7 +96,7 @@ export default {
 	          	Accept: 'application/json',
 	        }
         };
-        
+
 	    await this.$axios.post(
 	        "http://localhost:8000/api/admin/addProduct",
 	        {
