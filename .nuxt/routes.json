@@ -2,78 +2,78 @@
   {
     "name": "aboutus",
     "path": "/aboutus",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\aboutus\\\\index.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\aboutus\\\\index.vue",
     "chunkName": "pages/aboutus/index",
-    "_name": "_220d6c5a"
+    "_name": "_f772448a"
   },
   {
     "name": "admin",
     "path": "/admin",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\admin\\\\index.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\admin\\\\index.vue",
     "chunkName": "pages/admin/index",
-    "_name": "_1db19836"
+    "_name": "_5ca9edd7"
   },
   {
     "name": "categories",
     "path": "/categories",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\categories\\\\index.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\categories\\\\index.vue",
     "chunkName": "pages/categories/index",
-    "_name": "_4448f033"
+    "_name": "_820c119c"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\login\\\\index.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\login\\\\index.vue",
     "chunkName": "pages/login/index",
-    "_name": "_6030f7dc"
+    "_name": "_c1ad6506"
   },
   {
     "name": "products",
     "path": "/products",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\products\\\\index.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\products\\\\index.vue",
     "chunkName": "pages/products/index",
-    "_name": "_0320fd2b"
+    "_name": "_2fd4902c"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\register\\\\index.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\register\\\\index.vue",
     "chunkName": "pages/register/index",
-    "_name": "_5f879ae8"
+    "_name": "_959e256a"
   },
   {
     "name": "admin-panel",
     "path": "/admin/panel",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\admin\\\\panel\\\\index.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\admin\\\\panel\\\\index.vue",
     "chunkName": "pages/admin/panel/index",
-    "_name": "_0e5801cc"
+    "_name": "_e9417b4e"
   },
   {
     "name": "admin-panel-main",
     "path": "/admin/panel/main",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\admin\\\\panel\\\\main.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\admin\\\\panel\\\\main.vue",
     "chunkName": "pages/admin/panel/main",
-    "_name": "_00c10121"
+    "_name": "_479e4bfc"
   },
   {
     "name": "categories-category",
     "path": "/categories/:category",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\categories\\\\_category\\\\index.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\categories\\\\_category\\\\index.vue",
     "chunkName": "pages/categories/_category/index",
-    "_name": "_5d6f5704"
+    "_name": "_641b6ab6"
   },
   {
     "name": "products-id",
     "path": "/products/:id",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\products\\\\_id\\\\index.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\products\\\\_id\\\\index.vue",
     "chunkName": "pages/products/_id/index",
-    "_name": "_15a45a62"
+    "_name": "_97ea1120"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\xampp\\\\htdocs\\\\store\\\\back\\\\pages\\\\index.vue",
+    "component": "D:\\\\xampp\\\\htdocs\\\\royal\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_a7a12a62"
+    "_name": "_b6288f64"
   }
 ]

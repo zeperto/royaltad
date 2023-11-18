@@ -4,17 +4,17 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _220d6c5a = () => interopDefault(import('..\\pages\\aboutus\\index.vue' /* webpackChunkName: "pages/aboutus/index" */))
-const _1db19836 = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
-const _4448f033 = () => interopDefault(import('..\\pages\\categories\\index.vue' /* webpackChunkName: "pages/categories/index" */))
-const _6030f7dc = () => interopDefault(import('..\\pages\\login\\index.vue' /* webpackChunkName: "pages/login/index" */))
-const _0320fd2b = () => interopDefault(import('..\\pages\\products\\index.vue' /* webpackChunkName: "pages/products/index" */))
-const _5f879ae8 = () => interopDefault(import('..\\pages\\register\\index.vue' /* webpackChunkName: "pages/register/index" */))
-const _0e5801cc = () => interopDefault(import('..\\pages\\admin\\panel\\index.vue' /* webpackChunkName: "pages/admin/panel/index" */))
-const _00c10121 = () => interopDefault(import('..\\pages\\admin\\panel\\main.vue' /* webpackChunkName: "pages/admin/panel/main" */))
-const _5d6f5704 = () => interopDefault(import('..\\pages\\categories\\_category\\index.vue' /* webpackChunkName: "pages/categories/_category/index" */))
-const _15a45a62 = () => interopDefault(import('..\\pages\\products\\_id\\index.vue' /* webpackChunkName: "pages/products/_id/index" */))
-const _a7a12a62 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _f772448a = () => interopDefault(import('..\\pages\\aboutus\\index.vue' /* webpackChunkName: "pages/aboutus/index" */))
+const _5ca9edd7 = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
+const _820c119c = () => interopDefault(import('..\\pages\\categories\\index.vue' /* webpackChunkName: "pages/categories/index" */))
+const _c1ad6506 = () => interopDefault(import('..\\pages\\login\\index.vue' /* webpackChunkName: "pages/login/index" */))
+const _2fd4902c = () => interopDefault(import('..\\pages\\products\\index.vue' /* webpackChunkName: "pages/products/index" */))
+const _959e256a = () => interopDefault(import('..\\pages\\register\\index.vue' /* webpackChunkName: "pages/register/index" */))
+const _e9417b4e = () => interopDefault(import('..\\pages\\admin\\panel\\index.vue' /* webpackChunkName: "pages/admin/panel/index" */))
+const _479e4bfc = () => interopDefault(import('..\\pages\\admin\\panel\\main.vue' /* webpackChunkName: "pages/admin/panel/main" */))
+const _641b6ab6 = () => interopDefault(import('..\\pages\\categories\\_category\\index.vue' /* webpackChunkName: "pages/categories/_category/index" */))
+const _97ea1120 = () => interopDefault(import('..\\pages\\products\\_id\\index.vue' /* webpackChunkName: "pages/products/_id/index" */))
+const _b6288f64 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -29,47 +29,47 @@ export const routerOptions = {
 
   routes: [{
     path: "/aboutus",
-    component: _220d6c5a,
+    component: _f772448a,
     name: "aboutus"
   }, {
     path: "/admin",
-    component: _1db19836,
+    component: _5ca9edd7,
     name: "admin"
   }, {
     path: "/categories",
-    component: _4448f033,
+    component: _820c119c,
     name: "categories"
   }, {
     path: "/login",
-    component: _6030f7dc,
+    component: _c1ad6506,
     name: "login"
   }, {
     path: "/products",
-    component: _0320fd2b,
+    component: _2fd4902c,
     name: "products"
   }, {
     path: "/register",
-    component: _5f879ae8,
+    component: _959e256a,
     name: "register"
   }, {
     path: "/admin/panel",
-    component: _0e5801cc,
+    component: _e9417b4e,
     name: "admin-panel"
   }, {
     path: "/admin/panel/main",
-    component: _00c10121,
+    component: _479e4bfc,
     name: "admin-panel-main"
   }, {
     path: "/categories/:category",
-    component: _5d6f5704,
+    component: _641b6ab6,
     name: "categories-category"
   }, {
     path: "/products/:id",
-    component: _15a45a62,
+    component: _97ea1120,
     name: "products-id"
   }, {
     path: "/",
-    component: _a7a12a62,
+    component: _b6288f64,
     name: "index"
   }],
 

@@ -62,35 +62,22 @@ export default {
     }
   },
   methods: {
-    
+
     async login(){
-      
-      /*this.$axios({
-        method: 'post',
-        url: 'http://localhost:8000/api/login',
-        data: {
-          // name: this.name,
-          // description: this.description,
-          // price: this.price
-        }
-      });*/
+      let data = {
+        'username': this.username,
+        'password': this.password,
+      }
       const config = {
         headers:{
           accept: 'application/json',
         }
       };
-      await this.$axios.post(
-        "http://localhost:8000/api/adminLogin",
-        {
-          'email': this.username,
-          'password': this.password,
-        },
-        config
+      await this.$axios.$post("http://localhost:8000/api/adminLogin", data
       ).then(response => {
-        
-        let code = response.data.code;
-        let token = response.data.token;
-        
+        let code = response.code;
+        let token = response.token;
+
         if(code == 1){
           this.$store.commit('setAdminToken', token);
           console.log('ADMIN TOKEN: ' + this.$store.getters.getAdminToken);
@@ -121,7 +108,7 @@ export default {
         console.log('HHHH: ' + response.data);
         // let code = response.data.code;
         // let token = response.data.token;
-        
+
         // if(code == 1){
         //   this.$store.commit('setAdminToken', token);
         //   console.log('ADMIN TOKEN: ' + this.$store.getters.getAdminToken);

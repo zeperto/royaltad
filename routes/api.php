@@ -18,6 +18,8 @@ use App\Models\test;
 |
 */
 
+Route::post('/addUser', [adminController::class, 'addUser']);
+
 Route::post('/login', [authController::class, 'login']);
 Route::post('/register', [authController::class, 'register']);
 Route::get('/location', [locationController::class, 'index']);
